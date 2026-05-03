@@ -168,3 +168,79 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.section-intro {
+  max-width: 760px;
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.project-header h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.project-header span {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.project-summary {
+  font-size: 17px;
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+.project-details p {
+  margin: 10px 0;
+  color: #374151;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.tags span {
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 7px 11px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.note {
+  background: #f3f4f6;
+  border-left: 4px solid #2563eb;
+  padding: 12px 16px;
+  color: #4b5563;
+  border-radius: 8px;
+  margin-bottom: 28px;
+}
