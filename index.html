@@ -1,10 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Shreejan Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Shreejan Shrestha | Machine Learning Engineer</title>
+
+  <meta name="description" content="Portfolio of Your Name, Machine Learning Engineer specializing in RAG, document intelligence, computer vision, and applied AI systems." />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Hello, I am Shreejan</h1>
-  <p>My portfolio is live.</p>
+  <header class="hero">
+    <nav class="navbar">
+      <h2>Shreejan Shrestha</h2>
+      <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Machine Learning Engineer</p>
+      <h1>Building practical AI systems across GenAI, RAG, document intelligence, computer vision, and mobile AI.</h1>
+
+      <p>
+        I am a Machine Learning Engineer with 4 years of experience building production-facing AI systems.
+        I currently lead ML engineering and data annotation team at Vertex Special Technology, working across AI feasibility, architecture,
+        model development, evaluation, deployment, and stakeholder coordination.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="button primary" href="#projects">View Projects</a>
+        <a class="button secondary" href="assets/files/Shreejan Shrestha CV.pdf" target="_blank">Shreejan Shrestha CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I specialize in applied AI systems, especially document intelligence, layout-aware RAG,
+        computer vision, multimodal AI, and AI microservices. My work focuses on taking AI products
+        from stakeholder requirements and feasibility analysis to architecture, data workflows,
+        model development, evaluation, and production deployment.
+      </p>
+      <p>
+        Alongside industry work, I also serve as a part-time faculty for machine learning modules,
+        where I teach practical ML concepts and model development workflows.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Core ML & AI</h3>
+          <p>Python, PyTorch, Scikit-learn, Pandas, NumPy, Hugging Face Transformers, LangChain, RAG</p>
+        </div>
+
+        <div class="card">
+          <h3>LLM & Vector Search</h3>
+          <p>vLLM, Ollama, Qdrant, FAISS, Milvus, LlamaIndex, reranking, grounded generation</p>
+        </div>
+
+        <div class="card">
+          <h3>Computer Vision</h3>
+          <p>OpenCV, PIL, Faster R-CNN, MobileNetV3, U-Net, detection, segmentation</p>
+        </div>
+
+        <div class="card">
+          <h3>Tools & Deployment</h3>
+          <p>FastAPI, Docker, DVC, AWS, EC2, S3, Git, Linux, Streamlit, Gradio</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <div class="experience-item">
+        <h3>Team Lead, Machine Learning Engineer</h3>
+        <p class="muted">Vertex Special Technology | Sep 2023 – Present</p>
+
+        <ul>
+          <li>Lead 8 ML engineers and 11 data annotators across multimodal AI, computer vision, RAG, and mobile AI products.</li>
+          <li>Acted as product-owner-level AI lead for scAInit, AI Stellar, and TelePlantDoctor.</li>
+          <li>Communicated with stakeholders to understand requirements, assess AI feasibility, estimate development and running costs, and define practical AI implementation strategies.</li>
+          <li>Coordinated with business analysts, backend engineers, frontend teams, and AI engineers to translate product requirements into engineering workflows.</li>
+          <li>Designed annotation QA, model evaluation, architecture review, and delivery workflows for production-facing AI systems.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>scAInit</h3>
+          <p class="muted">VLM-based financial document understanding system</p>
+          <p>
+            Built and deployed a pipeline for extracting structured information from checks, invoices,
+            bank statements, credit card statements, and tax reports.
+          </p>
+          <p><strong>Stack:</strong> Python, FastAPI, vLLM, DVC, S3, MongoDB, EC2</p>
+        </div>
+
+        <div class="card">
+          <h3>ChatWithDoc</h3>
+          <p class="muted">Layout-aware document QA/RAG system</p>
+          <p>
+            Architected a RAG system for complex financial documents using contextual chunking,
+            vector retrieval, reranking, and grounded LLM generation.
+          </p>
+          <p><strong>Evaluation:</strong> Precision@k, Recall@k, Hit@k, source-grounding checks</p>
+          <p><strong>Stack:</strong> LlamaIndex, Qdrant, reranking, Python</p>
+        </div>
+
+        <div class="card">
+          <h3>TelePlantDoctor</h3>
+          <p class="muted">Crop disease diagnosis mobile AI application</p>
+          <p>
+            Built AI backend services for crop disease diagnosis using object detection,
+            vector similarity search, and FastAPI microservices.
+          </p>
+          <p><strong>Stack:</strong> FastAPI, Faster R-CNN, MobileNetV3, Milvus, cosine similarity</p>
+        </div>
+
+        <div class="card">
+          <h3>HemScreen</h3>
+          <p class="muted">AI-based anemia screening application</p>
+          <p>
+            Created computer vision pipelines for analyzing lower eyelid, thumbnail, and palm images
+            using detection and segmentation models.
+          </p>
+          <p><strong>Stack:</strong> Faster R-CNN, MobileNetV3, U-Net, OpenCV</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <h2>Teaching</h2>
+      <p>
+        Part-time faculty for machine learning modules, teaching ML fundamentals,
+        model development workflows, and practical AI implementation.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="shreejanmle@gmail.com">shreejanmle@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Shreejan-git" target="_blank">https://github.com/Shreejan-git</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/shreejan-shrestha1/" target="_blank">https://www.linkedin.com/in/shreejan-shrestha1/</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Shreejan Shrestha.</p>
+  </footer>
 </body>
 </html>
